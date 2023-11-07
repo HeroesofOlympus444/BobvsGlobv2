@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#biome1 {
+    border: 5px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1500px;
+    height: 600px;
+    flex-wrap: wrap;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#info {
+    position: absolute;
+    top: 0;
+}
+
+#score {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#enemy1, #enemy2, #enemy3, #Bob, #layer-1, #layer-2, #layer-3, #layer-4, #layer-5 {
+    display: none;
+}
+
+
